@@ -10,7 +10,7 @@
     "build": "tsc"
   },
   "keywords": ["OpenRTB", "Typescript", "v2.5"],
-  "author": "Kai",
+  "author": "kai miyamoto",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
