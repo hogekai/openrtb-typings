@@ -1,0 +1,24 @@
+{
+  "name": "openrtb-typings",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "docs": "typedoc",
+    "publish-packages": "pnpm -r publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "typedoc": "^0.26.6",
+    "typescript": "^5.5.4"
+  }
+}

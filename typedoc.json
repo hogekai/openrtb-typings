@@ -1,0 +1,8 @@
+{
+  "entryPoints": ["packages/*/src/index.ts"],
+  "out": "docs",
+  "name": "OpenRTB Typings",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true
+}
