@@ -1,15 +1,21 @@
 {
   "name": "@openrtb-typings/v2.5",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "TypeScript definitions for OpenRTB v2.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "keywords": ["OpenRTB", "Typescript", "v2.5"],
+  "keywords": [
+    "OpenRTB",
+    "Typescript",
+    "v2.5"
+  ],
   "author": "kai miyamoto",
   "license": "MIT",
   "publishConfig": {
