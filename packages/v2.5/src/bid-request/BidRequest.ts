@@ -26,5 +26,5 @@ export interface BidRequest {
   bapp?: string[];
   source?: Source;
   regs?: Regs;
-  ext?: any;
+  ext?: Record<string, unknown>;
 }
