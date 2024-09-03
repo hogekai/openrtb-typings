@@ -1,3 +1,4 @@
+import { IABCategory } from "@openrtb-typings/iab-category";
 import { Data } from "./Data";
 
 export interface Content {
@@ -12,7 +13,7 @@ export interface Content {
   isrc?: string;
   producer?: Producer;
   url?: string;
-  cat?: string[];
+  cat?: IABCategory[];
   prodq?: number;
   context?: number;
   contentrating?: string;

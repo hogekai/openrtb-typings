@@ -1,3 +1,4 @@
+import { IABCategory } from "@openrtb-typings/iab-category";
 import { ContentCategory } from "../enum/ContentCategory";
 import { APIFramework, CreativeAttribute, IQGMediaRating, Protocol } from "../enum/Enum";
 
@@ -16,7 +17,7 @@ export interface Bid {
   cid?: string;
   crid?: string;
   tactic?: string;
-  cat?: ContentCategory[];
+  cat?: IABCategory[];
   attr?: CreativeAttribute[];
   api?: APIFramework;
   protocol?: Protocol;
