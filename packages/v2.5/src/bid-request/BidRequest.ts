@@ -5,6 +5,7 @@ import { Regs } from "./Regs";
 import { Site } from "./Site";
 import { Source } from "./Source";
 import { User } from "./User";
+import { IABCategory } from "@openrtb-typings/iab-category";
 
 export interface BidRequest {
   id: string;
@@ -21,7 +22,7 @@ export interface BidRequest {
   allimps?: number;
   cur?: string[];
   wlang?: string[];
-  bcat?: string[];
+  bcat?: IABCategory[];
   badv?: string[];
   bapp?: string[];
   source?: Source;

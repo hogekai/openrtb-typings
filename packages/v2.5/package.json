@@ -20,5 +20,8 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@openrtb-typings/iab-category": "^0.1.0"
   }
 }
