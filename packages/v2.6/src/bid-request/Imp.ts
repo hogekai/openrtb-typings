@@ -21,6 +21,7 @@ export interface Imp {
   clickbrowser?: 0 | 1;
   secure?: 0 | 1;
   iframebuster?: string[];
+  rwdd?: 0 | 1;
   exp?: number;
   ext?: Record<string, unknown>;
 }
