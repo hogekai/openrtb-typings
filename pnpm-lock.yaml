@@ -23,6 +23,12 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
 
+  packages/v2.6:
+    dependencies:
+      '@openrtb-typings/iab-category':
+        specifier: ^0.1.1
+        version: 0.1.1
+
 packages:
 
   '@openrtb-typings/iab-category@0.1.1':
