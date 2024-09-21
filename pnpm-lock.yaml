@@ -10,10 +10,10 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^22.5.1
-        version: 22.5.1
+        version: 22.5.5
       typescript:
         specifier: ^5.5.4
-        version: 5.5.4
+        version: 5.6.2
 
   packages/iab-category: {}
 
@@ -34,11 +34,11 @@ packages:
   '@openrtb-typings/iab-category@0.1.1':
     resolution: {integrity: sha512-UZ/FHFPh9FbOHbme/xFZtjVPrM5VJ1HqwdUXxlns1G//lIw2cZFGmLlhafVV3pW1jN/Q3WgKtXzpF6k9J7ls3g==}
 
-  '@types/node@22.5.1':
-    resolution: {integrity: sha512-KkHsxej0j9IW1KKOOAA/XBA0z08UFSrRQHErzEfA3Vgq57eXIMYboIlHJuYIfd+lwCQjtKqUu3UnmKbtUc9yRw==}
+  '@types/node@22.5.5':
+    resolution: {integrity: sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==}
 
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  typescript@5.6.2:
+    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -49,10 +49,10 @@ snapshots:
 
   '@openrtb-typings/iab-category@0.1.1': {}
 
-  '@types/node@22.5.1':
+  '@types/node@22.5.5':
     dependencies:
       undici-types: 6.19.8
 
-  typescript@5.5.4: {}
+  typescript@5.6.2: {}
 
   undici-types@6.19.8: {}
