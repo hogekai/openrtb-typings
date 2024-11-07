@@ -15,3 +15,4 @@ export * from './Banner';
 export * from './Audio';
 export * from './Video';
 export * from './Native';
+export * from './Metric';
