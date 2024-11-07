@@ -12,12 +12,12 @@ IAB Category（広告カテゴリー）の列挙型（Enum）定義
 
 各バージョンの型定義を個別にインストールできます：
 
-2.5:
+v2.5:
 ```bash
 npm install @openrtb-typings/v2.5
 ```
 
-2.6:
+v2.6:
 ```bash
 npm install @openrtb-typings/v2.6
 ```
@@ -32,12 +32,12 @@ npm install @openrtb-typings/iab-category
 バンドルサイズの最適化のため、v2.5とv2.6のパッケージはas const patternを使用したIAB Categoryパッケージと連携するように設計されています。
 完全な機能を利用するには、以下のように関連パッケージを一緒にインストールすることを推奨します：
 
-2.5:
+v2.5:
 ```bash
 npm install @openrtb-typings/v2.5 @openrtb-typings/iab-category
 ```
 
-2.6:
+v2.6:
 ```bash
 npm install @openrtb-typings/v2.6 @openrtb-typings/iab-category
 ```
