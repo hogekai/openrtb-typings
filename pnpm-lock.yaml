@@ -20,19 +20,19 @@ importers:
   packages/v2.5:
     dependencies:
       '@openrtb-typings/iab-category':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.2
+        version: 0.1.2
 
   packages/v2.6:
     dependencies:
       '@openrtb-typings/iab-category':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.2
+        version: 0.1.2
 
 packages:
 
-  '@openrtb-typings/iab-category@0.1.1':
-    resolution: {integrity: sha512-UZ/FHFPh9FbOHbme/xFZtjVPrM5VJ1HqwdUXxlns1G//lIw2cZFGmLlhafVV3pW1jN/Q3WgKtXzpF6k9J7ls3g==}
+  '@openrtb-typings/iab-category@0.1.2':
+    resolution: {integrity: sha512-/PFGBl/qGc5rP8vwM86gxBjkUvrgsEvzZfIAlzSxEceU1ObHq6LrzklWxPhJvzGTdoWwS+TRDWloHysr0A6z/w==}
 
   '@types/node@22.5.5':
     resolution: {integrity: sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==}
@@ -47,7 +47,7 @@ packages:
 
 snapshots:
 
-  '@openrtb-typings/iab-category@0.1.1': {}
+  '@openrtb-typings/iab-category@0.1.2': {}
 
   '@types/node@22.5.5':
     dependencies:

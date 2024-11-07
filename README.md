@@ -1,57 +1,51 @@
 # OpenRTB Typings
 
-This repository contains TypeScript type definitions for the OpenRTB (Real-Time Bidding) protocol. It aims to provide accurate and up-to-date type information for developers working with OpenRTB in TypeScript projects.
+OpenRTB TypingsはOpenRTB（リアルタイムビディング）規格のための型定義パッケージです。TypeScriptを使用することで、開発時の型安全性を確保し、バグの早期発見を支援します。
 
-## Supported Versions
+## 提供している型定義
 
-Currently, this project supports the following OpenRTB versions:
+OpenRTB v2.5用の型定義
+OpenRTB v2.6用の型定義
+IAB Category（広告カテゴリー）の列挙型（Enum）定義
 
-- [OpenRTB 2.5](./packages/v2.5)
+## インストール
 
-## Installation
+各バージョンの型定義を個別にインストールできます：
 
-To install the type definitions for a specific OpenRTB version, use npm:
-
+2.5:
 ```bash
 npm install @openrtb-typings/v2.5
 ```
 
-## Usage
-
-After installation, you can import and use the types in your TypeScript project:
-
-```typescript
-import { BidRequest, BidResponse } from '@openrtb-typings/v2.5';
-
-const bidRequest: BidRequest = {
-  // ... your bid request object
-};
-
-const bidResponse: BidResponse = {
-  // ... your bid response object
-};
+2.6:
+```bash
+npm install @openrtb-typings/v2.6
 ```
 
-## Documentation
+IAB Category
+```bash
+npm install @openrtb-typings/iab-category
+```
 
-For detailed information about each supported OpenRTB version, please refer to the README in the respective package directory:
+## 推奨インストール方法
 
-- [OpenRTB 2.5 Documentation](./packages/v2.5/README.md)
+バンドルサイズの最適化のため、v2.5とv2.6のパッケージはas const patternを使用したIAB Categoryパッケージと連携するように設計されています。
+完全な機能を利用するには、以下のように関連パッケージを一緒にインストールすることを推奨します：
 
-## Contributing
+2.5:
+```bash
+npm install @openrtb-typings/v2.5 @openrtb-typings/iab-category
+```
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+2.6:
+```bash
+npm install @openrtb-typings/v2.6 @openrtb-typings/iab-category
+```
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 詳細ドキュメント
 
-## License
+各パッケージの詳細な仕様方法について、以下のドキュメントをご参照ください。
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- OpenRTB Specification: [https://www.iab.com/guidelines/openrtb/](https://www.iab.com/guidelines/openrtb/)
+- [OpenRTB v2.5の使用方法](./packages/v2.5/README.md)
+- [OpenRTB v.2.6の使用方法](./packages/v2.6)
+- [OpenRTB IAB Categoryの使用方法](./packages/iab-category)
