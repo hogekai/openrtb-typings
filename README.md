@@ -1,16 +1,16 @@
 # OpenRTB Typings
 
-OpenRTB TypingsはOpenRTB（リアルタイムビディング）規格のための型定義パッケージです。TypeScriptを使用することで、開発時の型安全性を確保し、バグの早期発見を支援します。
+OpenRTB Typings is a type definition package for the OpenRTB (Real-Time Bidding) specification. By using TypeScript, it ensures type safety during development and helps with early bug detection.
 
-## 提供している型定義
+## Provided Type Definitions
 
-OpenRTB v2.5用の型定義
-OpenRTB v2.6用の型定義
-IAB Category（広告カテゴリー）の列挙型（Enum）定義
+- Type definitions for OpenRTB v2.5
+- Type definitions for OpenRTB v2.6
+- Enum definitions for IAB Categories
 
-## インストール
+## Installation
 
-各バージョンの型定義を個別にインストールできます：
+You can install type definitions for each version separately:
 
 v2.5:
 ```bash
@@ -22,15 +22,15 @@ v2.6:
 npm install @openrtb-typings/v2.6
 ```
 
-IAB Category
+IAB Category:
 ```bash
 npm install @openrtb-typings/iab-category
 ```
 
-## 推奨インストール方法
+## Recommended Installation Method
 
-バンドルサイズの最適化のため、v2.5とv2.6のパッケージはas const patternを使用したIAB Categoryパッケージと連携するように設計されています。
-完全な機能を利用するには、以下のように関連パッケージを一緒にインストールすることを推奨します：
+For bundle size optimization, v2.5 and v2.6 packages are designed to work with the IAB Category package using the 'as const' pattern.
+To utilize full functionality, it is recommended to install related packages together as follows:
 
 v2.5:
 ```bash
@@ -42,10 +42,10 @@ v2.6:
 npm install @openrtb-typings/v2.6 @openrtb-typings/iab-category
 ```
 
-## 詳細ドキュメント
+## Detailed Documentation
 
-各パッケージの詳細な仕様方法について、以下のドキュメントをご参照ください。
+For detailed usage specifications of each package, please refer to the following documentation:
 
-- [OpenRTB v2.5の使用方法](./packages/v2.5/README.md)
-- [OpenRTB v.2.6の使用方法](./packages/v2.6)
-- [OpenRTB IAB Categoryの使用方法](./packages/iab-category)
+- [How to use OpenRTB v2.5](./packages/v2.5/README.md)
+- [How to use OpenRTB v2.6](./packages/v2.6)
+- [How to use OpenRTB IAB Category](./packages/iab-category)
