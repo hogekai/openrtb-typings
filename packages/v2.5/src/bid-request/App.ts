@@ -1,4 +1,5 @@
-import { ContentCategory } from "../enum/ContentCategory";
+
+import { IABCategory } from "@openrtb-typings/iab-category";
 import { Content } from "./Content";
 import { Publisher } from "./Publisher";
 
@@ -8,9 +9,9 @@ export interface App {
   bundle?: string;
   domain?: string;
   storeurl?: string;
-  cat?: ContentCategory[];
-  sectioncat?: ContentCategory[];
-  pagecat?: ContentCategory[];
+  cat?: IABCategory[];
+  sectioncat?: IABCategory[];
+  pagecat?: IABCategory[];
   ver?: string;
   privacypolicy?: 0 | 1;
   paid?: 0 | 1;
