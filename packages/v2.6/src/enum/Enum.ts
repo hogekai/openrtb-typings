@@ -274,3 +274,115 @@ export const LossReasonCode = {
 } as const;
 export type LossReasonCode =
   (typeof LossReasonCode)[keyof typeof LossReasonCode];
+
+  /**
+ * Consent categories for privacy regulations
+ * Each value represents a specific type of user consent
+ */
+export const ConsentCategory = {
+  /**
+   * General consent for data processing
+   */
+  GENERAL_DATA_PROCESSING: 1,
+  
+  /**
+   * Consent for personalized advertising
+   */
+  PERSONALIZED_ADVERTISING: 2,
+  
+  /**
+   * Consent for sharing data with third parties
+   */
+  THIRD_PARTY_SHARING: 3,
+  
+  /**
+   * Consent for precise geolocation data
+   */
+  PRECISE_GEOLOCATION: 4,
+  
+  /**
+   * Consent for device identification
+   */
+  DEVICE_IDENTIFICATION: 5,
+  
+  /**
+   * Consent for offline data matching
+   */
+  OFFLINE_DATA_MATCHING: 6,
+  
+  /**
+   * Consent for linking devices
+   */
+  DEVICE_LINKING: 7,
+  
+  /**
+   * Consent for automated decision making
+   */
+  AUTOMATED_DECISION_MAKING: 8,
+  
+  /**
+   * Consent for sensitive data processing
+   */
+  SENSITIVE_DATA_PROCESSING: 9,
+  
+  /**
+   * Consent for data retention
+   */
+  DATA_RETENTION: 10
+} as const;
+
+/**
+ * Extract numeric literal types from ConsentCategory
+ */
+export type ConsentCategoryType = typeof ConsentCategory[keyof typeof ConsentCategory];
+
+/**
+ * Data disclosure levels for privacy requirements
+ * Each value represents a specific level of data disclosure permitted
+ */
+export const DataDisclosure = {
+  /**
+   * No data disclosure permitted
+   */
+  NO_DISCLOSURE: 0,
+  
+  /**
+   * Disclosure permitted for basic bid processing only
+   */
+  BASIC_BID_PROCESSING: 1,
+  
+  /**
+   * Disclosure permitted for bid optimization
+   */
+  BID_OPTIMIZATION: 2,
+  
+  /**
+   * Disclosure permitted for delivery optimization
+   */
+  DELIVERY_OPTIMIZATION: 3,
+  
+  /**
+   * Disclosure permitted for performance analysis
+   */
+  PERFORMANCE_ANALYSIS: 4,
+  
+  /**
+   * Disclosure permitted for user segmentation
+   */
+  USER_SEGMENTATION: 5,
+  
+  /**
+   * Disclosure permitted for model training
+   */
+  MODEL_TRAINING: 6,
+  
+  /**
+   * Full disclosure permitted
+   */
+  FULL_DISCLOSURE: 7
+} as const;
+
+/**
+ * Extract numeric literal types from DataDisclosure
+ */
+export type DataDisclosureType = typeof DataDisclosure[keyof typeof DataDisclosure];
