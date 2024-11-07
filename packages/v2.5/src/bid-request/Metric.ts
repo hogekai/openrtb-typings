@@ -1,6 +1,7 @@
-interface Metric {
+
+export interface Metric {
   type: string;
   value: number;
   vendor?: string;
-  ext?: any;
+  ext?: Record<string, unknown>;
 }

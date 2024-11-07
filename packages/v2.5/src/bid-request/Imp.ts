@@ -1,5 +1,6 @@
 import { Audio } from "./Audio";
 import { Banner } from "./Banner";
+import { Metric } from "./Metric";
 import { Native } from "./Native";
 import { Pmp } from "./Pmp";
 import { Video } from "./Video";
@@ -22,12 +23,5 @@ export interface Imp {
   secure?: 0 | 1;
   iframebuster?: string[];
   exp?: number;
-  ext?: Record<string, unknown>;
-}
-
-export interface Metric {
-  type: string;
-  value: number;
-  vendor?: string;
   ext?: Record<string, unknown>;
 }
