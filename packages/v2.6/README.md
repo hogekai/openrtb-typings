@@ -42,24 +42,24 @@ const request: BidRequest = {
 
 Provided type definitions:
 
-`App`: Mobile application related information
-`Audio`: Audio ad specifications
-`Banner`: Banner ad specifications
-`BidRequest`: Root element of bid request
-`Content`: Information about content where ad is displayed
-`Data`: User data segments
-`Device`: Device information
-`Geo`: Geographic information
-`Imp`: Impression (ad slot) details
-`Metric`: KPI metrics
-`Native`: Native ad specifications
-`Pmp`: Private marketplace settings
-`Publisher`: Publisher information
-`Regs`: Regulatory information (extended in v2.6)
-`Site`: Website related information
-`Source`: Bid request delivery path information
-`User`: User information (extended in v2.6)
-`Video`: Video ad specifications (extended in v2.6)
+- `App`: Mobile application related information
+- `Audio`: Audio ad specifications
+- `Banner`: Banner ad specifications
+- `BidRequest`: Root element of bid request
+- `Content`: Information about content where ad is displayed
+- `Data`: User data segments
+- `Device`: Device information
+- `Geo`: Geographic information
+- `Imp`: Impression (ad slot) details
+- `Metric`: KPI metrics
+- `Native`: Native ad specifications
+- `Pmp`: Private marketplace settings
+- `Publisher`: Publisher information
+- `Regs`: Regulatory information (extended in v2.6)
+- `Site`: Website related information
+- `Source`: Bid request delivery path information
+- `User`: User information (extended in v2.6)
+- `Video`: Video ad specifications (extended in v2.6)
 
 For details, refer to the [OpenRTB v2.6 documentation](https://iabtechlab.com/wp-content/uploads/2022/04/OpenRTB-2-6_FINAL.pdf).
 
