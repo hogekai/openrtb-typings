@@ -1,5 +1,4 @@
 import { IABCategory } from "@openrtb-typings/iab-category";
-import { ContentCategory } from "../enum/ContentCategory";
 import { APIFramework, CreativeAttribute, IQGMediaRating, Protocol } from "../enum/Enum";
 
 export interface Bid {
