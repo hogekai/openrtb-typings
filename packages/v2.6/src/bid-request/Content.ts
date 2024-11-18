@@ -19,7 +19,7 @@ export interface Content {
   contentrating?: string;
   userrating?: string;
   qagmediarating?: number;
-  keywords?: string;
+  keywords?: string[] | string;
   livestream?: number;
   sourcerelationship?: number;
   len?: number;
