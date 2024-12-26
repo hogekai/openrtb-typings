@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+ "deprecated": "Please use @hogekai/types-iab-adcom and @hogekai/types-iab-openrtb instead",
   "keywords": [
     "OpenRTB",
     "TypeScript",
