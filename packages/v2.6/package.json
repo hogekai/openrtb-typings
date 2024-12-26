@@ -1,6 +1,6 @@
 {
   "name": "@openrtb-typings/v2.6",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "TypeScript definitions for OpenRTB v2.6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
- "deprecated": "Please use @hogekai/types-iab-adcom and @hogekai/types-iab-openrtb instead",
+  "deprecated": "Please use @hogekai/types-iab-adcom and @hogekai/types-iab-openrtb instead",
   "keywords": [
     "OpenRTB",
     "TypeScript",
